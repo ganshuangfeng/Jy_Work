@@ -1,0 +1,1 @@
+在电脑上登录正式服微信号需要用到图中的三个文件 wechat.txt，refresh_token.txt，appid.txt，其中appid.txt各平台渠道和设备平台不同，使用是可以询问相关人员，wechat.txt 和refresh_token.txt 可以找服务器查询

@@ -1,0 +1,39 @@
+查找隐藏物体
+请求返回回调崩溃
+
+***************************2020-07-04-00-45-49
+user_id:  105535923
+Version:15.1.15
+Device:Android
+Platform:wqp
+Channel:wqp_xianwan
+attempt to index gameObject on a nil value
+stack traceback:
+	[C]: at 0xbf2d4029
+	[C]: in function '__index'
+	Game/CommonPrefab/Lua/GameButtonPanel:152: in function 'ClearCell'
+	Game/CommonPrefab/Lua/GameButtonPanel:62: in function 'MyExit'
+	Game/game_DdzFree/Lua/DdzFreeClearing:33: in function 'MyExit'
+	Game/game_DdzFree/Lua/DdzFreeClearing:728: in function 'v'
+	Game/Common/3rd/eventlib/eventlib:183: in function 'f'
+	Game/Common/3rd/eventlib/eventlib:113: in function 'spawn'
+	Game/Common/3rd/eventlib/eventlib:182: in function 'fire'
+	Game/Framework/events:41: in function 'Brocast'
+	...
+	Game/Common/3rd/eventlib/eventlib:113: in function 'spawn'
+	Game/Common/3rd/eventlib/eventlib:182: in function 'fire'
+	Game/Framework/events:41: in function 'Brocast'
+	Game/Framework/Network:236: in function 'OnRESPONSE'
+	Game/Framework/Network:209: in function 'v'
+	Game/Common/3rd/eventlib/eventlib:183: in function 'f'
+	Game/Common/3rd/eventlib/eventlib:113: in function 'spawn'
+	Game/Common/3rd/eventlib/eventlib:182: in function 'fire'
+	Game/Framework/events:41: in function 'Brocast'
+	Game/Framework/Network:136: in function <Game/Framework/Network:135>  UnityEngine_ComponentWrap:get_gameObject(IntPtr)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaState:PCall(Int32, Int32)
+LuaInterface.LuaFunction:PCall()
+LuaInterface.LuaFunction:LazyCall(Object[])
+LuaFramework.LuaManager:CallFunction(String, Object[])
+LuaFramework.Util:CallMethod(String, String, Object[])
+LuaFramework.NetworkManager:Update()

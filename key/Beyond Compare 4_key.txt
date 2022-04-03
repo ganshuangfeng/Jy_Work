@@ -1,0 +1,22 @@
+Licensed to:    ganshuangfeng
+Quantity:       1 user 
+Serial number:  1916-4373
+License type:   BC4 Standard Edition, Multi Platform
+
+--- BEGIN LICENSE KEY ---
+6g5dy0Ku-GWlm-h0WqlQGreHle34hoIyVj7p9fC56-SpNEtZSGK-ZzSAx
+uOG9wrlkE0T7r4HrQTv9QSpFQDryKmq7JW4WEcCr630hbBeBVSGg3pAs9
+C0FD25vCcaofFw72dlUXahEQXJhkIvukaWZcIBkHEVMd1EQufGDyzJcan
+rcXUVSkOOCgm-2Y1jBmaPmELtuy65AjrCo8PVuj31bRXneIMufeOYLhJo
+-SgyXYyIVRpKAKZxeVa1KQQhRktcykOWlLQ3K78uDjgIqOCoDhvxGBpn5
+IZUa2HhQwUvJd47THU9znRKA-NYaB1R+cH6s+rqhhd1ChnnE-tVNwB8KU
+--- END LICENSE KEY -----
+
+
+
+
+
+merge tool 路径： C:/Program Files (x86)/Beyond Compare 3/bcomp.exe
+merge tool 命令："C:/Program Files (x86)/Beyond Compare 3/bcomp.exe" "$REMOTE" "$LOCAL"  /savetarget="$MERGED"
+diff tool 路径：C:/Program Files (x86)/Beyond Compare 3/bcomp.exe
+diff  tool 路径："C:/Program Files (x86)/Beyond Compare 3/bcomp.exe" "$REMOTE" "$LOCAL"
